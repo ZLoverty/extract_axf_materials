@@ -28,19 +28,19 @@ pip install -e .
 After installation, use:
 
 ```powershell
-extract-axf-materials "C:\path\to\sample.axf"
+extract_axf_materials "C:\path\to\sample.axf"
 ```
 
 Or run it on a folder:
 
 ```powershell
-extract-axf-materials "C:\path\to\folder"
+extract_axf_materials "C:\path\to\folder"
 ```
 
 Optional threshold:
 
 ```powershell
-extract-axf-materials "C:\path\to\folder" --size-threshold 128
+extract_axf_materials "C:\path\to\folder" --size-threshold 128
 ```
 
 ## Outputs

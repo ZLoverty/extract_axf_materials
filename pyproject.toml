@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "extract-axf-materials"
-version = "0.1.0"
+version = "0.1.1"
 description = "Extract material maps and color info from AXF files."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 [project.scripts]
-extract-axf-materials = "extract_axf_materials:main"
+extract_axf_materials = "extract_axf_materials:main"
 
 [tool.setuptools]
 py-modules = ["extract_axf_materials"]
